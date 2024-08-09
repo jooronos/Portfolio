@@ -67,7 +67,7 @@
 */
 
 
-/*
+
 .slider {
     
     box-shadow: 0 10px 20px -5px rgba(254, 254, 254, 0.125);
@@ -119,7 +119,7 @@
         transform: translateX(calc(-250px * 7));
     }
 }
-*/
+
 body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
