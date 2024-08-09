@@ -67,9 +67,9 @@
 */
 
 
-
+/*
 .slider {
-    background: rgb(55, 52, 52);
+    
     box-shadow: 0 10px 20px -5px rgba(254, 254, 254, 0.125);
     height: 100px;
     margin: auto;
@@ -80,7 +80,7 @@
 
 .slider::before,
 .slider::after {
-    background: linear-gradient(to right, rgb(55, 54, 54) 0%, rgba(247, 247, 247, 0) 100%);
+    
     content: "";
     height: 100px;
     position: absolute;
@@ -107,6 +107,7 @@
 
 .slide {
     height: 100px;
+    flex-shrink: 0;
     width: 250px;
 }
 
@@ -118,7 +119,7 @@
         transform: translateX(calc(-250px * 7));
     }
 }
-
+*/
 body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
